@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0d2ecd7-e3bc-4858-a480-e23a0ae8fd8a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/automasure-v1_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
+    <list default="true" id="a0d2ecd7-e3bc-4858-a480-e23a0ae8fd8a" name="Changes" comment="rename again">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,11 +71,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1777994939156</updated>
-      <workItem from="1777994940160" duration="5704000" />
+      <workItem from="1777994940160" duration="9870000" />
     </task>
+    <task id="LOCAL-00001" summary="deleting and renaming">
+      <option name="closed" value="true" />
+      <created>1778004301407</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1778004301407</updated>
+    </task>
+    <task id="LOCAL-00002" summary="rename again">
+      <option name="closed" value="true" />
+      <created>1778004449046</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1778004449046</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="deleting and renaming" />
+    <MESSAGE value="rename again" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename again" />
   </component>
 </project>
