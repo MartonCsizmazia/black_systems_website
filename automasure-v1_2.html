@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Automasure — AI Automation for Growing Businesses</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+
+<!-- ─── NAV ─── -->
+<nav>
+  <a href="#" class="nav-logo">Auto<span>masure</span></a>
+
+  <ul class="nav-links">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+
+  <a href="https://calendly.com" class="btn btn-primary nav-cta" target="_blank" rel="noopener">
+    Let's talk <span class="arrow">&#8594;</span>
+  </a>
+
+  <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="nav-mobile" id="mobileMenu">
+  <a href="#services" onclick="closeMobile()">Services</a>
+  <a href="#about" onclick="closeMobile()">About</a>
+  <a href="https://calendly.com" target="_blank" rel="noopener" style="color: var(--accent);">Let's talk &#8594;</a>
+</div>
+
+<!-- ─── HERO ─── -->
+<section class="hero">
+  <span class="hero-eyebrow">AI Automation Agency</span>
+
+  <h1>AI systems that generate leads,<br>eliminate manual work, and<br><em>scale your operations.</em></h1>
+
+  <p class="hero-sub">
+    We build AI-powered systems that eliminate manual work and scale your operations without adding headcount.
+  </p>
+
+  <div class="stats">
+    <div class="stat">
+      <span class="stat-value">100s</span>
+      <span class="stat-label">Of hours saved per client</span>
+    </div>
+    <div class="stat">
+      <span class="stat-value">24/7</span>
+      <span class="stat-label">Systems run without manual work</span>
+    </div>
+    <div class="stat">
+      <span class="stat-value">60s</span>
+      <span class="stat-label">Avg lead response time</span>
+    </div>
+    <div class="stat">
+      <span class="stat-value">2 weeks</span>
+      <span class="stat-label">First automation live</span>
+    </div>
+  </div>
+
+  <a href="https://calendly.com" class="btn btn-primary btn-large" target="_blank" rel="noopener">
+    Let's talk <span class="arrow">&#8594;</span>
+  </a>
+</section>
+
+<!-- ─── SERVICES ─── -->
+<section id="services" class="fade-up">
+  <div class="services-header">
+    <span class="section-label">What we do</span>
+    <h2>Built for businesses that are serious<br>about efficiency.</h2>
+    <p class="section-intro">Not templates. Not off-the-shelf tools. Custom systems engineered for the way you actually work.</p>
+  </div>
+
+  <div class="services-grid">
+    <div class="service-card">
+      <span class="service-number">01</span>
+      <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+      </svg>
+      <h3>AI Automation</h3>
+      <p>We automate your repetitive workflows end to end. Lead handling, onboarding, reporting, follow-ups, data entry. If your team does it manually more than once a week, we can automate it.</p>
+    </div>
+
+    <div class="service-card">
+      <span class="service-number">02</span>
+      <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M12 8v4l3 3"/>
+        <path d="M2 12h2M20 12h2M12 2v2M12 20v2"/>
+      </svg>
+      <h3>AI Strategy</h3>
+      <p>We map your operations, identify your highest-impact automation opportunities, and give you a clear roadmap. No jargon, no generic frameworks. Just what actually makes sense for your business.</p>
+    </div>
+
+    <div class="service-card">
+      <span class="service-number">03</span>
+      <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+        <circle cx="9" cy="7" r="4"/>
+        <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+        <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+      </svg>
+      <h3>Automation Partner</h3>
+      <p>We don't build and disappear. We work alongside you as an ongoing partner, maintaining, improving, and expanding your systems as your business grows.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ─── HOW IT WORKS ─── -->
+<section class="fade-up">
+  <span class="section-label">How it works</span>
+  <h2>Three steps from manual work<br>to systems that run themselves.</h2>
+
+  <div class="steps-grid">
+    <div class="step">
+      <div class="step-number">01</div>
+      <h3>Discovery</h3>
+      <p>We learn your business, your tools, and where time is being wasted. No assumptions, no cookie-cutter audits.</p>
+    </div>
+
+    <div class="step">
+      <div class="step-number">02</div>
+      <h3>We build</h3>
+      <p>Custom automation systems designed for your exact workflow. No templates, no shortcuts. Built to last.</p>
+    </div>
+
+    <div class="step">
+      <div class="step-number">03</div>
+      <h3>You scale</h3>
+      <p>Your systems run around the clock. Your team stops doing manual work. You grow without growing your headcount.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ─── WHO WE WORK WITH ─── -->
+<div class="who-section fade-up">
+  <div class="who-inner">
+    <div>
+      <span class="section-label">Who we work with</span>
+      <p class="who-text">
+        We work with <strong>marketing agencies, service businesses, and scale-ups</strong> across the UK and EU who are serious about building efficient operations. If you are still doing manually what a system could handle, we should talk.
+      </p>
+    </div>
+    <div class="who-tags">
+      <span class="tag">Marketing agencies</span>
+      <span class="tag">Service businesses</span>
+      <span class="tag">UK based</span>
+      <span class="tag">EU based</span>
+      <span class="tag">5 to 100 people</span>
+      <span class="tag">Fast-growing teams</span>
+      <span class="tag">Operations-focused</span>
+      <span class="tag">Serious about efficiency</span>
+    </div>
+  </div>
+</div>
+
+<!-- ─── ABOUT ─── -->
+<section id="about" class="fade-up">
+  <div class="about-left">
+    <span class="section-label">About</span>
+    <h2>Built by an engineer,<br>not a consultant.</h2>
+  </div>
+
+  <div class="about-right">
+    <p>
+      I am Márton Csizmazia, founder of Automasure. I am a software engineer and AI automation specialist with a background in building complex systems for enterprise and growing businesses.
+    </p>
+    <p>
+      I started Automasure to give smaller businesses access to the kind of automation that used to require a full engineering team. The difference is that I actually build what I design, and I stay to make sure it works long-term.
+    </p>
+    <p>
+      Based in Budapest, working with clients across the UK and EU.
+    </p>
+    <span class="about-detail">Budapest, HU &nbsp;&middot;&nbsp; UK &amp; EU clients</span>
+  </div>
+</section>
+
+<!-- ─── CTA ─── -->
+<div class="cta-section fade-up">
+  <div class="cta-inner">
+    <span class="section-label" style="display:block; margin-bottom: 0.75rem;">Get started</span>
+    <h2>Ready to stop doing<br>things manually?</h2>
+    <p>Book a free 30-minute call. No sales pitch, no obligation. Just a conversation about what you can automate.</p>
+    <a href="https://calendly.com" class="btn btn-primary btn-large" target="_blank" rel="noopener">
+      Book a free 30-minute call <span class="arrow">&#8594;</span>
+    </a>
+  </div>
+</div>
+
+<!-- ─── FOOTER ─── -->
+<footer>
+  <span class="footer-brand">Automasure</span>
+  <a href="mailto:marton@automasure.com" class="footer-email">marton@automasure.com</a>
+  <span class="footer-copy">&copy; 2025 Automasure</span>
+</footer>
+
+<script>
+  // ─── Hamburger ───
+  const hamburger = document.getElementById('hamburger');
+  const mobileMenu = document.getElementById('mobileMenu');
+
+  hamburger.addEventListener('click', () => {
+    const isOpen = hamburger.classList.toggle('open');
+    mobileMenu.classList.toggle('open', isOpen);
+    hamburger.setAttribute('aria-expanded', isOpen);
+  });
+
+  function closeMobile() {
+    hamburger.classList.remove('open');
+    mobileMenu.classList.remove('open');
+    hamburger.setAttribute('aria-expanded', false);
+  }
+
+  // Close on outside click
+  document.addEventListener('click', (e) => {
+    if (!hamburger.contains(e.target) && !mobileMenu.contains(e.target)) {
+      closeMobile();
+    }
+  });
+
+  // ─── Scroll animations ───
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => entry.target.classList.add('visible'), 60);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+  document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+  // ─── Nav scroll style ───
+  const nav = document.querySelector('nav');
+  window.addEventListener('scroll', () => {
+    nav.style.borderBottomColor = window.scrollY > 40
+      ? 'rgba(255,255,255,0.1)'
+      : 'rgba(255,255,255,0.07)';
+  }, { passive: true });
+</script>
+</body>
+</html>
