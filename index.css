@@ -18,7 +18,6 @@
     --accent: #e8ff47;
     --accent-dim: rgba(232, 255, 71, 0.12);
     --accent-glow: rgba(232, 255, 71, 0.25);
-    /*--font-display: 'DM Sans', sans-serif;*/
     --font-display: 'DM Sans', sans-serif;
     --font-body: 'Bricolage Grotesque', sans-serif;
     --radius: 4px;
@@ -104,9 +103,18 @@ nav {
     color: var(--text);
     text-decoration: none;
     letter-spacing: -0.02em;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
-.nav-logo span {
+.nav-logo-img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.nav-logo-accent {
     color: var(--accent);
 }
 
@@ -813,6 +821,10 @@ footer {
         letter-spacing: -0.025em;
     }
 
+    .hero {
+        padding-top: calc(64px + clamp(2.5rem, 8vw, 6rem));
+    }
+
     .stats {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -835,6 +847,6 @@ footer {
     }
 
     .stat-label {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
 }
