@@ -767,6 +767,11 @@ footer {
     opacity: 1;
     transform: translateY(0);
 }
+@media (max-width: 900px) {
+    .hero {
+        padding-top: calc(64px + 1.5rem);
+    }
+}
 
 /* ─── Responsive ─── */
 @media (max-width: 900px) {
@@ -819,10 +824,6 @@ footer {
 @media (max-width: 480px) {
     h1 {
         letter-spacing: -0.025em;
-    }
-
-    .hero {
-        padding-top: calc(64px + 1.5rem);
     }
 
     .stats {
