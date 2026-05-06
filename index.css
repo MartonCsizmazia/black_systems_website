@@ -814,6 +814,10 @@ footer {
     .nav-hamburger {
         display: flex;
     }
+
+    .hero {
+        padding-top: calc(64px + clamp(1.5rem, 8vw, 6rem));
+    }
 }
 
 @media (max-width: 480px) {
@@ -822,7 +826,7 @@ footer {
     }
 
     .hero {
-        padding-top: calc(64px + clamp(2.5rem, 8vw, 6rem));
+        padding-top: calc(64px + clamp(1.5rem, 8vw, 6rem));
     }
 
     .stats {
