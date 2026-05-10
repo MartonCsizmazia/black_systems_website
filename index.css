@@ -4,22 +4,6 @@
     padding: 0;
 }
 
-@font-face {
-    font-family: 'DM Sans';
-    src: url('fonts/DMSans-Variable.woff2') format('woff2');
-    font-weight: 100 900;
-    font-style: normal;
-    font-display: optional;
-}
-
-@font-face {
-    font-family: 'Bricolage Grotesque';
-    src: url('fonts/BricolageGrotesque-Variable.woff2') format('woff2');
-    font-weight: 100 900;
-    font-style: normal;
-    font-display: optional;
-}
-
 :root {
     --bg: #0a0a0b;
     --bg-2: #111114;
@@ -34,8 +18,8 @@
     --accent: #e8ff47;
     --accent-dim: rgba(232, 255, 71, 0.12);
     --accent-glow: rgba(232, 255, 71, 0.25);
-    --font-display: 'DM Sans', sans-serif;
-    --font-body: 'Bricolage Grotesque', sans-serif;
+    --font-display: system-ui, sans-serif;
+    --font-body: sans-serif;
     --radius: 4px;
     --radius-lg: 8px;
     --transition: 0.2s ease;
