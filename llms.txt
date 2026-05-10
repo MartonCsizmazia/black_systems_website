@@ -1,0 +1,24 @@
+# Automasure
+
+> AI automation agency that designs, builds, and maintains automation systems for growing businesses. We eliminate manual work, generate leads, and scale operations without adding headcount.
+
+## Company
+- Founder: Márton Csizmazia
+- Location: Budapest, Hungary
+- Contact: marton@automasure.com
+- Website: https://automasure.com
+- Serving: UK and EU businesses, 5 to 100 people
+
+## Services
+- AI Automation: End-to-end workflow automation. Lead handling, onboarding, reporting, follow-ups, data entry.
+- AI Strategy: Operations mapping, identifying highest-impact automation opportunities, clear roadmap.
+- Automation Partner: Ongoing maintenance, improvement, and expansion of automation systems.
+
+## Target clients
+Marketing agencies, service businesses, and scale-ups across the UK and EU who spend too much time on manual, repetitive work.
+
+## Positioning
+Custom-built automation systems, not templates or off-the-shelf tools. Built by a software engineer, not a consultant. Systems run 24/7 without manual intervention. First automation live within 2 weeks. Average lead response time 60 seconds.
+
+## Booking
+Free 30-minute discovery call: https://cal.com/marton-csizmazia-zeg8g7/30min
