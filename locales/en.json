@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "services": "Services",
+    "about": "About",
+    "lets_talk": "Let's talk"
+  },
+  "hero": {
+    "eyebrow": "AI Automation Agency",
+    "heading": "AI systems that generate leads, eliminate manual work, and <em>scale your operations.</em>",
+    "sub": "We build AI-powered systems that eliminate manual work and scale your operations without adding headcount.",
+    "cta": "Let's talk"
+  },
+  "stats": {
+    "hours_value": "100s",
+    "hours_label": "Of hours saved per client",
+    "uptime_value": "24/7",
+    "uptime_label": "Systems run without manual work",
+    "weeks_value": "2 weeks",
+    "weeks_label": "First automation live",
+    "response_value": "60s",
+    "response_label": "Avg lead response time"
+  },
+  "services": {
+    "label": "What we do",
+    "heading": "Built for businesses that are serious<br>about efficiency.",
+    "intro": "Not templates. Not off-the-shelf tools. Custom systems engineered for the way you actually work.",
+    "automation": {
+      "title": "AI Automation",
+      "desc": "We automate your repetitive workflows end to end. Lead handling, onboarding, reporting, follow-ups, data entry. If your team does it manually more than once a week, we can automate it."
+    },
+    "strategy": {
+      "title": "AI Strategy",
+      "desc": "We map your operations, identify your highest-impact automation opportunities, and give you a clear roadmap. No jargon, no generic frameworks. Just what actually makes sense for your business."
+    },
+    "partner": {
+      "title": "Automation Partner",
+      "desc": "We don't build and disappear. We work alongside you as an ongoing partner, maintaining, improving, and expanding your systems as your business grows."
+    }
+  },
+  "how_it_works": {
+    "label": "How it works",
+    "heading": "Three steps from manual work<br>to systems that run themselves.",
+    "step1": {
+      "title": "Discovery",
+      "desc": "We learn your business, your tools, and where time is being wasted. No assumptions, no cookie-cutter audits."
+    },
+    "step2": {
+      "title": "We build",
+      "desc": "Custom automation systems designed for your exact workflow. No templates, no shortcuts. Built to last."
+    },
+    "step3": {
+      "title": "You scale",
+      "desc": "Your systems run around the clock. Your team stops doing manual work. You grow without growing your headcount."
+    }
+  },
+  "who": {
+    "label": "Who we work with",
+    "text": "We work with <strong>marketing agencies, service businesses, and scale-ups</strong> across the UK and EU who are serious about building efficient operations. If you are still doing manually what a system could handle, we should talk.",
+    "tag_marketing": "Marketing agencies",
+    "tag_service": "Service businesses",
+    "tag_uk": "UK based",
+    "tag_eu": "EU based",
+    "tag_size": "5 to 100 people",
+    "tag_growing": "Fast-growing teams",
+    "tag_ops": "Operations-focused",
+    "tag_efficiency": "Serious about efficiency"
+  },
+  "about": {
+    "label": "About",
+    "heading": "Built by an engineer,<br>not a consultant.",
+    "p1": "I am Márton Csizmazia, founder of Automasure. I am a software engineer and AI automation specialist with a background in building complex systems for enterprise and growing businesses.",
+    "p2": "I started Automasure to give smaller businesses access to the kind of automation that used to require a full engineering team. The difference is that I actually build what I design, and I stay to make sure it works long-term.",
+    "p3": "Based in Budapest, working with clients across the UK and EU.",
+    "detail": "Budapest, HU &nbsp;&middot;&nbsp; UK &amp; EU clients"
+  },
+  "cta": {
+    "label": "Get started",
+    "heading": "Ready to stop doing<br>things manually?",
+    "desc": "Book a free 30-minute call. No sales pitch, no obligation. Just a conversation about what you can automate.",
+    "btn": "Book a free 30-minute call"
+  }
+}

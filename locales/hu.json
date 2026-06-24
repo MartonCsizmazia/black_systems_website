@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "services": "Szolgáltatások",
+    "about": "Rólunk",
+    "lets_talk": "Beszéljünk"
+  },
+  "hero": {
+    "eyebrow": "AI Automatizációs Ügynökség",
+    "heading": "AI rendszerek, amelyek leadeket generálnak, megszüntetik a manuális munkát, és <em>skálázzák a működésedet.</em>",
+    "sub": "AI-alapú rendszereket építünk, amelyek megszüntetik a manuális munkát és skálázzák a működésedet a létszám növelése nélkül.",
+    "cta": "Beszéljünk"
+  },
+  "stats": {
+    "hours_value": "100+",
+    "hours_label": "Megspórolt óra ügyfelenként",
+    "uptime_value": "24/7",
+    "uptime_label": "Rendszerek futnak manuális munka nélkül",
+    "weeks_value": "2 hét",
+    "weeks_label": "Az első automatizáció élesben",
+    "response_value": "60s",
+    "response_label": "Átlagos lead válaszidő"
+  },
+  "services": {
+    "label": "Amit csinálunk",
+    "heading": "Komolyan gondolkodó vállalkozásoknak<br>az eredményességről.",
+    "intro": "Nem sablonok. Nem polcról leemelt eszközök. Egyedi rendszerek, ahogy te valóban dolgozol.",
+    "automation": {
+      "title": "AI Automatizáció",
+      "desc": "Automatizáljuk az ismétlődő munkafolyamataidat végig. Leadkezelés, onboarding, riportálás, follow-upok, adatrögzítés. Ha a csapatod heti egyszer manuálisan csinálja, mi automatizálni tudjuk."
+    },
+    "strategy": {
+      "title": "AI Stratégia",
+      "desc": "Feltérképezzük a működésedet, azonosítjuk a leghatásosabb automatizálási lehetőségeket, és átlátható tervet adunk. Szakzsargon nélkül, általános keretrendszerek nélkül. Csak ami valóban értelmes a te vállalkozásodnak."
+    },
+    "partner": {
+      "title": "Automatizálási Partner",
+      "desc": "Nem építünk és tűnünk el. Tartós partnerként dolgozunk melletted, fenntartva, fejlesztve és bővítve rendszereidet, ahogy a vállalkozásod növekszik."
+    }
+  },
+  "how_it_works": {
+    "label": "Hogyan működik",
+    "heading": "Három lépés a manuális munkától<br>az önmagukat futtató rendszerekig.",
+    "step1": {
+      "title": "Feltárás",
+      "desc": "Megismerjük a vállalkozásodat, eszközeidet, és azt, hol vész el az idő. Feltételezések nélkül, sablonos auditok nélkül."
+    },
+    "step2": {
+      "title": "Építünk",
+      "desc": "Egyedi automatizálási rendszerek az exakt munkafolyamatodra tervezve. Sablonok nélkül, rövidítések nélkül. Tartósra építve."
+    },
+    "step3": {
+      "title": "Te skálázol",
+      "desc": "Rendszereid az óra 24 órájában futnak. A csapatod abbahagyja a manuális munkát. Növekszel anélkül, hogy a létszámodat növelnéd."
+    }
+  },
+  "who": {
+    "label": "Kikkel dolgozunk",
+    "text": "<strong>Marketing ügynökségekkel, szolgáltató vállalkozásokkal és scale-upokkal</strong> dolgozunk az Egyesült Királyságban és az EU-ban, akik komolyan veszik a hatékony működés kialakítását. Ha még mindig manuálisan csinálod azt, amit egy rendszer elvégezhetne, érdemes beszélnünk.",
+    "tag_marketing": "Marketing ügynökségek",
+    "tag_service": "Szolgáltató cégek",
+    "tag_uk": "Egyesült Királyság",
+    "tag_eu": "EU-s ügyfél",
+    "tag_size": "5–100 fős csapat",
+    "tag_growing": "Gyorsan növekvő csapatok",
+    "tag_ops": "Operáció-fókuszú",
+    "tag_efficiency": "Hatékonyság-orientált"
+  },
+  "about": {
+    "label": "Rólunk",
+    "heading": "Egy mérnök építette,<br>nem egy tanácsadó.",
+    "p1": "Csizmazia Márton vagyok, az Automasure alapítója. Szoftverfejlesztő és AI automatizáció specialista vagyok, komplex rendszerek tervezésének és kivitelezésének tapasztalatával enterprise és növekvő vállalkozások számára.",
+    "p2": "Az Automasure-t azért alapítottam, hogy kisebb vállalkozások is hozzáférhessenek ahhoz az automatizáláshoz, amelyhez korábban egy teljes fejlesztőcsapat kellett. A különbség az, hogy én valóban megépítem, amit tervezek, és maradok, hogy megbizonyosodjak a hosszú távú működéséről.",
+    "p3": "Budapesten dolgozom, ügyfelekkel az Egyesült Királyságban és az EU-ban.",
+    "detail": "Budapest, HU &nbsp;&middot;&nbsp; UK &amp; EU ügyfelek"
+  },
+  "cta": {
+    "label": "Kezdjük el",
+    "heading": "Készen állsz abbahagyni<br>a manuális munkát?",
+    "desc": "Foglalj egy ingyenes 30 perces hívást. Nincs sales-es nyomás, nincs kötelezettség. Csak egy beszélgetés arról, mit lehet automatizálni.",
+    "btn": "Ingyenes 30 perces hívás foglalása"
+  }
+}

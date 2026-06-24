@@ -23,17 +23,20 @@
         </a>
 
         <ul class="nav-links">
-            <li><a href="#services">Services</a></li>
-            <li><a href="#about">About</a></li>
+            <li><a href="#services" data-i18n="nav.services">Services</a></li>
+            <li><a href="#about" data-i18n="nav.about">About</a></li>
         </ul>
 
-        <a
-                data-cal-link="marton-csizmazia-zeg8g7/30min"
-                data-cal-namespace="30min"
-                data-cal-config='{"layout":"month_view"}'
-                class="btn btn-primary nav-cta">
-            Let's talk <span class="arrow">&#8594;</span>
-        </a>
+        <div class="nav-right">
+            <button class="lang-toggle" aria-label="Switch language">hu</button>
+            <a
+                    data-cal-link="marton-csizmazia-zeg8g7/30min"
+                    data-cal-namespace="30min"
+                    data-cal-config='{"layout":"month_view"}'
+                    class="btn btn-primary nav-cta">
+                <span data-i18n="nav.lets_talk">Let's talk</span> <span class="arrow">&#8594;</span>
+            </a>
+        </div>
 
         <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
             <span></span>
@@ -44,44 +47,45 @@
 
     <!-- Mobile Menu -->
     <div class="nav-mobile" id="mobileMenu">
-        <a href="#services" onclick="closeMobile()">Services</a>
-        <a href="#about" onclick="closeMobile()">About</a>
+        <a href="#services" onclick="closeMobile()" data-i18n="nav.services">Services</a>
+        <a href="#about" onclick="closeMobile()" data-i18n="nav.about">About</a>
         <a href="https://cal.com/marton-csizmazia-zeg8g7/30min"
            onclick="closeMobile()"
            data-cal-link="marton-csizmazia-zeg8g7/30min"
            data-cal-namespace="30min"
            data-cal-config='{"layout":"month_view"}'
            style="color: var(--accent); cursor: pointer;">
-            Let's talk &#8594;
+            <span data-i18n="nav.lets_talk">Let's talk</span> &#8594;
         </a>
+        <button class="lang-toggle lang-toggle-mobile" aria-label="Switch language">hu</button>
     </div>
 
     <!-- ─── HERO ─── -->
     <section class="hero">
-        <span class="hero-eyebrow">AI Automation Agency</span>
+        <span class="hero-eyebrow" data-i18n="hero.eyebrow">AI Automation Agency</span>
 
-        <h1>AI systems that generate leads, eliminate manual work, and <em>scale your operations.</em></h1>
+        <h1 data-i18n-html="hero.heading">AI systems that generate leads, eliminate manual work, and <em>scale your operations.</em></h1>
 
-        <p class="hero-sub">
+        <p class="hero-sub" data-i18n="hero.sub">
             We build AI-powered systems that eliminate manual work and scale your operations without adding headcount.
         </p>
 
         <div class="stats">
             <div class="stat">
-                <span class="stat-value">100s</span>
-                <span class="stat-label">Of hours saved per client</span>
+                <span class="stat-value" data-i18n="stats.hours_value">100s</span>
+                <span class="stat-label" data-i18n="stats.hours_label">Of hours saved per client</span>
             </div>
             <div class="stat">
-                <span class="stat-value">24/7</span>
-                <span class="stat-label">Systems run without manual work</span>
+                <span class="stat-value" data-i18n="stats.uptime_value">24/7</span>
+                <span class="stat-label" data-i18n="stats.uptime_label">Systems run without manual work</span>
             </div>
             <div class="stat">
-                <span class="stat-value">2 weeks</span>
-                <span class="stat-label">First automation live</span>
+                <span class="stat-value" data-i18n="stats.weeks_value">2 weeks</span>
+                <span class="stat-label" data-i18n="stats.weeks_label">First automation live</span>
             </div>
             <div class="stat">
-                <span class="stat-value">60s</span>
-                <span class="stat-label">Avg lead response time</span>
+                <span class="stat-value" data-i18n="stats.response_value">60s</span>
+                <span class="stat-label" data-i18n="stats.response_label">Avg lead response time</span>
             </div>
         </div>
 
@@ -90,17 +94,16 @@
                 data-cal-namespace="30min"
                 data-cal-config='{"layout":"month_view"}'
                 class="btn btn-primary btn-large">
-            Let's talk <span class="arrow">&#8594;</span>
+            <span data-i18n="hero.cta">Let's talk</span> <span class="arrow">&#8594;</span>
         </a>
     </section>
 
     <!-- ─── SERVICES ─── -->
     <section id="services" class="fade-up">
         <div class="services-header">
-            <span class="section-label">What we do</span>
-            <h2>Built for businesses that are serious<br>about efficiency.</h2>
-            <p class="section-intro">Not templates. Not off-the-shelf tools. Custom systems engineered for the way you
-                actually work.</p>
+            <span class="section-label" data-i18n="services.label">What we do</span>
+            <h2 data-i18n-html="services.heading">Built for businesses that are serious<br>about efficiency.</h2>
+            <p class="section-intro" data-i18n="services.intro">Not templates. Not off-the-shelf tools. Custom systems engineered for the way you actually work.</p>
         </div>
 
         <div class="services-grid">
@@ -109,10 +112,8 @@
                      stroke-linecap="round" stroke-linejoin="round">
                     <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
                 </svg>
-                <h3>AI Automation</h3>
-                <p>We automate your repetitive workflows end to end. Lead handling, onboarding, reporting, follow-ups,
-                    data
-                    entry. If your team does it manually more than once a week, we can automate it.</p>
+                <h3 data-i18n="services.automation.title">AI Automation</h3>
+                <p data-i18n="services.automation.desc">We automate your repetitive workflows end to end. Lead handling, onboarding, reporting, follow-ups, data entry. If your team does it manually more than once a week, we can automate it.</p>
             </div>
 
             <div class="service-card">
@@ -122,9 +123,8 @@
                     <path d="M12 8v4l3 3"/>
                     <path d="M2 12h2M20 12h2M12 2v2M12 20v2"/>
                 </svg>
-                <h3>AI Strategy</h3>
-                <p>We map your operations, identify your highest-impact automation opportunities, and give you a clear
-                    roadmap. No jargon, no generic frameworks. Just what actually makes sense for your business.</p>
+                <h3 data-i18n="services.strategy.title">AI Strategy</h3>
+                <p data-i18n="services.strategy.desc">We map your operations, identify your highest-impact automation opportunities, and give you a clear roadmap. No jargon, no generic frameworks. Just what actually makes sense for your business.</p>
             </div>
 
             <div class="service-card">
@@ -135,39 +135,34 @@
                     <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
                     <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
                 </svg>
-                <h3>Automation Partner</h3>
-                <p>We don't build and disappear. We work alongside you as an ongoing partner, maintaining, improving,
-                    and
-                    expanding your systems as your business grows.</p>
+                <h3 data-i18n="services.partner.title">Automation Partner</h3>
+                <p data-i18n="services.partner.desc">We don't build and disappear. We work alongside you as an ongoing partner, maintaining, improving, and expanding your systems as your business grows.</p>
             </div>
         </div>
     </section>
 
     <!-- ─── HOW IT WORKS ─── -->
     <section class="fade-up">
-        <span class="section-label">How it works</span>
-        <h2>Three steps from manual work<br>to systems that run themselves.</h2>
+        <span class="section-label" data-i18n="how_it_works.label">How it works</span>
+        <h2 data-i18n-html="how_it_works.heading">Three steps from manual work<br>to systems that run themselves.</h2>
 
         <div class="steps-grid">
             <div class="step">
                 <div class="step-number">1</div>
-                <h3>Discovery</h3>
-                <p>We learn your business, your tools, and where time is being wasted. No assumptions, no cookie-cutter
-                    audits.</p>
+                <h3 data-i18n="how_it_works.step1.title">Discovery</h3>
+                <p data-i18n="how_it_works.step1.desc">We learn your business, your tools, and where time is being wasted. No assumptions, no cookie-cutter audits.</p>
             </div>
 
             <div class="step">
                 <div class="step-number">2</div>
-                <h3>We build</h3>
-                <p>Custom automation systems designed for your exact workflow. No templates, no shortcuts. Built to
-                    last.</p>
+                <h3 data-i18n="how_it_works.step2.title">We build</h3>
+                <p data-i18n="how_it_works.step2.desc">Custom automation systems designed for your exact workflow. No templates, no shortcuts. Built to last.</p>
             </div>
 
             <div class="step">
                 <div class="step-number">3</div>
-                <h3>You scale</h3>
-                <p>Your systems run around the clock. Your team stops doing manual work. You grow without growing your
-                    headcount.</p>
+                <h3 data-i18n="how_it_works.step3.title">You scale</h3>
+                <p data-i18n="how_it_works.step3.desc">Your systems run around the clock. Your team stops doing manual work. You grow without growing your headcount.</p>
             </div>
         </div>
     </section>
@@ -176,8 +171,8 @@
     <div class="who-section fade-up">
         <div class="who-inner">
             <div>
-                <span class="section-label">Who we work with</span>
-                <p class="who-text">
+                <span class="section-label" data-i18n="who.label">Who we work with</span>
+                <p class="who-text" data-i18n-html="who.text">
                     We work with <strong>marketing agencies, service businesses, and scale-ups</strong> across the UK
                     and EU
                     who are serious about building efficient operations. If you are still doing manually what a system
@@ -186,14 +181,14 @@
                 </p>
             </div>
             <div class="who-tags">
-                <span class="tag">Marketing agencies</span>
-                <span class="tag">Service businesses</span>
-                <span class="tag">UK based</span>
-                <span class="tag">EU based</span>
-                <span class="tag">5 to 100 people</span>
-                <span class="tag">Fast-growing teams</span>
-                <span class="tag">Operations-focused</span>
-                <span class="tag">Serious about efficiency</span>
+                <span class="tag" data-i18n="who.tag_marketing">Marketing agencies</span>
+                <span class="tag" data-i18n="who.tag_service">Service businesses</span>
+                <span class="tag" data-i18n="who.tag_uk">UK based</span>
+                <span class="tag" data-i18n="who.tag_eu">EU based</span>
+                <span class="tag" data-i18n="who.tag_size">5 to 100 people</span>
+                <span class="tag" data-i18n="who.tag_growing">Fast-growing teams</span>
+                <span class="tag" data-i18n="who.tag_ops">Operations-focused</span>
+                <span class="tag" data-i18n="who.tag_efficiency">Serious about efficiency</span>
             </div>
         </div>
     </div>
@@ -201,43 +196,42 @@
     <!-- ─── ABOUT ─── -->
     <section id="about" class="fade-up">
         <div class="about-left">
-            <span class="section-label">About</span>
-            <h2>Built by an engineer,<br>not a consultant.</h2>
+            <span class="section-label" data-i18n="about.label">About</span>
+            <h2 data-i18n-html="about.heading">Built by an engineer,<br>not a consultant.</h2>
         </div>
 
         <div class="about-right">
-            <p>
+            <p data-i18n="about.p1">
                 I am Márton Csizmazia, founder of Automasure. I am a software engineer and AI automation specialist with
                 a
                 background in building complex systems for enterprise and growing businesses.
             </p>
-            <p>
+            <p data-i18n="about.p2">
                 I started Automasure to give smaller businesses access to the kind of automation that used to require a
                 full
                 engineering team. The difference is that I actually build what I design, and I stay to make sure it
                 works
                 long-term.
             </p>
-            <p>
+            <p data-i18n="about.p3">
                 Based in Budapest, working with clients across the UK and EU.
             </p>
-            <span class="about-detail">Budapest, HU &nbsp;&middot;&nbsp; UK &amp; EU clients</span>
+            <span class="about-detail" data-i18n-html="about.detail">Budapest, HU &nbsp;&middot;&nbsp; UK &amp; EU clients</span>
         </div>
     </section>
 
     <!-- ─── CTA ─── -->
     <div class="cta-section fade-up">
         <div class="cta-inner">
-            <span class="section-label" style="display:block; margin-bottom: 0.75rem;">Get started</span>
-            <h2>Ready to stop doing<br>things manually?</h2>
-            <p>Book a free 30-minute call. No sales pitch, no obligation. Just a conversation about what you can
-                automate.</p>
+            <span class="section-label" data-i18n="cta.label" style="display:block; margin-bottom: 0.75rem;">Get started</span>
+            <h2 data-i18n-html="cta.heading">Ready to stop doing<br>things manually?</h2>
+            <p data-i18n="cta.desc">Book a free 30-minute call. No sales pitch, no obligation. Just a conversation about what you can automate.</p>
             <a
                     data-cal-link="marton-csizmazia-zeg8g7/30min"
                     data-cal-namespace="30min"
                     data-cal-config='{"layout":"month_view"}'
                     class="btn btn-primary btn-large">
-                Book a free 30-minute call <span class="arrow">&#8594;</span>
+                <span data-i18n="cta.btn">Book a free 30-minute call</span> <span class="arrow">&#8594;</span>
             </a>
         </div>
     </div>
@@ -294,6 +288,152 @@
             ? 'rgba(255,255,255,0.1)'
             : 'rgba(255,255,255,0.07)';
     }, {passive: true});
+
+    // ─── i18n ───
+    const TRANSLATIONS = {
+        en: {
+            nav: { services: "Services", about: "About", lets_talk: "Let's talk" },
+            hero: {
+                eyebrow: "AI Automation Agency",
+                heading: "AI systems that generate leads, eliminate manual work, and <em>scale your operations.</em>",
+                sub: "We build AI-powered systems that eliminate manual work and scale your operations without adding headcount.",
+                cta: "Let's talk"
+            },
+            stats: {
+                hours_value: "100s", hours_label: "Of hours saved per client",
+                uptime_value: "24/7", uptime_label: "Systems run without manual work",
+                weeks_value: "2 weeks", weeks_label: "First automation live",
+                response_value: "60s", response_label: "Avg lead response time"
+            },
+            services: {
+                label: "What we do",
+                heading: "Built for businesses that are serious<br>about efficiency.",
+                intro: "Not templates. Not off-the-shelf tools. Custom systems engineered for the way you actually work.",
+                automation: { title: "AI Automation", desc: "We automate your repetitive workflows end to end. Lead handling, onboarding, reporting, follow-ups, data entry. If your team does it manually more than once a week, we can automate it." },
+                strategy: { title: "AI Strategy", desc: "We map your operations, identify your highest-impact automation opportunities, and give you a clear roadmap. No jargon, no generic frameworks. Just what actually makes sense for your business." },
+                partner: { title: "Automation Partner", desc: "We don't build and disappear. We work alongside you as an ongoing partner, maintaining, improving, and expanding your systems as your business grows." }
+            },
+            how_it_works: {
+                label: "How it works",
+                heading: "Three steps from manual work<br>to systems that run themselves.",
+                step1: { title: "Discovery", desc: "We learn your business, your tools, and where time is being wasted. No assumptions, no cookie-cutter audits." },
+                step2: { title: "We build", desc: "Custom automation systems designed for your exact workflow. No templates, no shortcuts. Built to last." },
+                step3: { title: "You scale", desc: "Your systems run around the clock. Your team stops doing manual work. You grow without growing your headcount." }
+            },
+            who: {
+                label: "Who we work with",
+                text: "We work with <strong>marketing agencies, service businesses, and scale-ups</strong> across the UK and EU who are serious about building efficient operations. If you are still doing manually what a system could handle, we should talk.",
+                tag_marketing: "Marketing agencies", tag_service: "Service businesses",
+                tag_uk: "UK based", tag_eu: "EU based", tag_size: "5 to 100 people",
+                tag_growing: "Fast-growing teams", tag_ops: "Operations-focused", tag_efficiency: "Serious about efficiency"
+            },
+            about: {
+                label: "About",
+                heading: "Built by an engineer,<br>not a consultant.",
+                p1: "I am Márton Csizmazia, founder of Automasure. I am a software engineer and AI automation specialist with a background in building complex systems for enterprise and growing businesses.",
+                p2: "I started Automasure to give smaller businesses access to the kind of automation that used to require a full engineering team. The difference is that I actually build what I design, and I stay to make sure it works long-term.",
+                p3: "Based in Budapest, working with clients across the UK and EU.",
+                detail: "Budapest, HU &nbsp;&middot;&nbsp; UK &amp; EU clients"
+            },
+            cta: {
+                label: "Get started",
+                heading: "Ready to stop doing<br>things manually?",
+                desc: "Book a free 30-minute call. No sales pitch, no obligation. Just a conversation about what you can automate.",
+                btn: "Book a free 30-minute call"
+            }
+        },
+        hu: {
+            nav: { services: "Szolgáltatások", about: "Rólunk", lets_talk: "Beszéljünk" },
+            hero: {
+                eyebrow: "AI Automatizációs Ügynökség",
+                heading: "AI rendszerek, amelyek leadeket generálnak, megszüntetik a manuális munkát, és <em>skálázzák a működésedet.</em>",
+                sub: "AI-alapú rendszereket építünk, amelyek megszüntetik a manuális munkát és skálázzák a működésedet a létszám növelése nélkül.",
+                cta: "Beszéljünk"
+            },
+            stats: {
+                hours_value: "100+", hours_label: "Megspórolt óra ügyfelenként",
+                uptime_value: "24/7", uptime_label: "Rendszerek futnak manuális munka nélkül",
+                weeks_value: "2 hét", weeks_label: "Az első automatizáció élesben",
+                response_value: "60s", response_label: "Átlagos lead válaszidő"
+            },
+            services: {
+                label: "Amit csinálunk",
+                heading: "Komolyan gondolkodó vállalkozásoknak<br>az eredményességről.",
+                intro: "Nem sablonok. Nem polcról leemelt eszközök. Egyedi rendszerek, ahogy te valóban dolgozol.",
+                automation: { title: "AI Automatizáció", desc: "Automatizáljuk az ismétlődő munkafolyamataidat végig. Leadkezelés, onboarding, riportálás, follow-upok, adatrögzítés. Ha a csapatod heti egyszer manuálisan csinálja, mi automatizálni tudjuk." },
+                strategy: { title: "AI Stratégia", desc: "Feltérképezzük a működésedet, azonosítjuk a leghatásosabb automatizálási lehetőségeket, és átlátható tervet adunk. Szakzsargon nélkül, általános keretrendszerek nélkül. Csak ami valóban értelmes a te vállalkozásodnak." },
+                partner: { title: "Automatizálási Partner", desc: "Nem építünk és tűnünk el. Tartós partnerként dolgozunk melletted, fenntartva, fejlesztve és bővítve rendszereidet, ahogy a vállalkozásod növekszik." }
+            },
+            how_it_works: {
+                label: "Hogyan működik",
+                heading: "Három lépés a manuális munkától<br>az önmagukat futtató rendszerekig.",
+                step1: { title: "Feltárás", desc: "Megismerjük a vállalkozásodat, eszközeidet, és azt, hol vész el az idő. Feltételezések nélkül, sablonos auditok nélkül." },
+                step2: { title: "Építünk", desc: "Egyedi automatizálási rendszerek az exakt munkafolyamatodra tervezve. Sablonok nélkül, rövidítések nélkül. Tartósra építve." },
+                step3: { title: "Te skálázol", desc: "Rendszereid az óra 24 órájában futnak. A csapatod abbahagyja a manuális munkát. Növekszel anélkül, hogy a létszámodat növelnéd." }
+            },
+            who: {
+                label: "Kikkel dolgozunk",
+                text: "<strong>Marketing ügynökségekkel, szolgáltató vállalkozásokkal és scale-upokkal</strong> dolgozunk az Egyesült Királyságban és az EU-ban, akik komolyan veszik a hatékony működés kialakítását. Ha még mindig manuálisan csinálod azt, amit egy rendszer elvégezhetne, érdemes beszélnünk.",
+                tag_marketing: "Marketing ügynökségek", tag_service: "Szolgáltató cégek",
+                tag_uk: "Egyesült Királyság", tag_eu: "EU-s ügyfél", tag_size: "5–100 fős csapat",
+                tag_growing: "Gyorsan növekvő csapatok", tag_ops: "Operáció-fókuszú", tag_efficiency: "Hatékonyság-orientált"
+            },
+            about: {
+                label: "Rólunk",
+                heading: "Egy mérnök építette,<br>nem egy tanácsadó.",
+                p1: "Csizmazia Márton vagyok, az Automasure alapítója. Szoftverfejlesztő és AI automatizáció specialista vagyok, komplex rendszerek tervezésének és kivitelezésének tapasztalatával enterprise és növekvő vállalkozások számára.",
+                p2: "Az Automasure-t azért alapítottam, hogy kisebb vállalkozások is hozzáférhessenek ahhoz az automatizáláshoz, amelyhez korábban egy teljes fejlesztőcsapat kellett. A különbség az, hogy én valóban megépítem, amit tervezek, és maradok, hogy megbizonyosodjak a hosszú távú működéséről.",
+                p3: "Budapesten dolgozom, ügyfelekkel az Egyesült Királyságban és az EU-ban.",
+                detail: "Budapest, HU &nbsp;&middot;&nbsp; UK &amp; EU ügyfelek"
+            },
+            cta: {
+                label: "Kezdjük el",
+                heading: "Készen állsz abbahagyni<br>a manuális munkát?",
+                desc: "Foglalj egy ingyenes 30 perces hívást. Nincs sales-es nyomás, nincs kötelezettség. Csak egy beszélgetés arról, mit lehet automatizálni.",
+                btn: "Ingyenes 30 perces hívás foglalása"
+            }
+        }
+    };
+
+    const i18n = {
+        current: localStorage.getItem('lang') || ((navigator.language || '').startsWith('hu') ? 'hu' : 'en'),
+
+        get(obj, path) {
+            return path.split('.').reduce((o, k) => o?.[k], obj);
+        },
+
+        apply(t) {
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const val = this.get(t, el.dataset.i18n);
+                if (val != null) el.textContent = val;
+            });
+            document.querySelectorAll('[data-i18n-html]').forEach(el => {
+                const val = this.get(t, el.dataset.i18nHtml);
+                if (val != null) el.innerHTML = val;
+            });
+            const next = this.current === 'en' ? 'hu' : 'en';
+            document.querySelectorAll('.lang-toggle').forEach(btn => btn.textContent = next);
+            document.documentElement.lang = this.current;
+        },
+
+        set(lang) {
+            this.current = lang;
+            localStorage.setItem('lang', lang);
+            this.apply(TRANSLATIONS[lang]);
+        },
+
+        init() {
+            this.apply(TRANSLATIONS[this.current]);
+            document.querySelectorAll('.lang-toggle').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const next = this.current === 'en' ? 'hu' : 'en';
+                    this.set(next);
+                });
+            });
+        }
+    };
+
+    i18n.init();
 </script>
 <!-- Cal.com embed -->
 <script type="text/javascript">
