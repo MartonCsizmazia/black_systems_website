@@ -167,17 +167,6 @@ nav {
     box-shadow: 0 8px 24px var(--accent-glow);
 }
 
-.btn-ghost {
-    background: transparent;
-    color: var(--text);
-    border: 1px solid var(--border-hover);
-}
-
-.btn-ghost:hover {
-    border-color: var(--accent);
-    color: var(--accent);
-}
-
 .btn-large {
     font-size: 1rem;
     padding: 0.875rem 1.75rem;
@@ -488,17 +477,6 @@ h2 {
     color: var(--accent);
 }
 
-.service-number {
-    font-family: var(--font-display);
-    font-size: 0.65rem;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    color: var(--text-dim);
-    text-transform: uppercase;
-    margin-bottom: 0.75rem;
-    display: block;
-}
-
 h3 {
     font-family: var(--font-display);
     font-size: 1.25rem;
@@ -748,14 +726,6 @@ footer {
     color: var(--text-muted);
 }
 
-/* ─── Divider ─── */
-.divider {
-    height: 1px;
-    background: var(--border);
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 /* ─── Animations ─── */
 .fade-up {
     opacity: 0;
@@ -767,14 +737,13 @@ footer {
     opacity: 1;
     transform: translateY(0);
 }
+
+/* ─── Responsive ─── */
 @media (max-width: 900px) {
     .hero {
         padding-top: calc(64px + 1.5rem);
     }
-}
 
-/* ─── Responsive ─── */
-@media (max-width: 900px) {
     .stats {
         grid-template-columns: repeat(2, 1fr);
     }
