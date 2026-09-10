@@ -1,12 +1,12 @@
-# Automasure
+# Black Systems
 
 > AI automation agency that designs, builds, and maintains automation systems for growing businesses. We eliminate manual work, generate leads, and scale operations without adding headcount.
 
 ## Company
 - Founder: Márton Csizmazia
 - Location: Budapest, Hungary
-- Contact: marton@automasure.com
-- Website: https://automasure.com
+- Contact: marton@blacksystems.ai
+- Website: https://blacksystems.ai
 - Serving: UK and EU businesses, 5 to 100 people
 
 ## Services

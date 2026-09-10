@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://automasure.com/sitemap.xml
+Sitemap: https://blacksystems.ai/sitemap.xml
