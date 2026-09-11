@@ -6,7 +6,7 @@
 - Founder: Márton Csizmazia
 - Location: Budapest, Hungary
 - Contact: marton@blacksystems.ai
-- Website: https://blacksystems.ai
+- Website: https://www.blacksystems.ai
 - Serving: UK and EU businesses, 5 to 100 people
 
 ## Services
@@ -21,4 +21,4 @@ Marketing agencies, service businesses, and scale-ups across the UK and EU who s
 Custom-built automation systems, not templates or off-the-shelf tools. Built by a software engineer, not a consultant. Systems run 24/7 without manual intervention. First automation live within 2 weeks. Average lead response time 60 seconds.
 
 ## Booking
-Free 30-minute discovery call: https://cal.com/marton-csizmazia-zeg8g7/30min
+Free 30-minute discovery call: https://cal.com/marton-csizmazia-avnndf/30min

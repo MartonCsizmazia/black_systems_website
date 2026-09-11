@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://blacksystems.ai/sitemap.xml
+Sitemap: https://www.blacksystems.ai/sitemap.xml
